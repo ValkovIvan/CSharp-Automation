@@ -27,5 +27,19 @@ namespace SimplyLoginAppTests
             // Validation
             Assert.NotNull(response);
         }
+
+        [Test]
+        public void VerifyAbout() //not changed
+        {
+            // Initialize
+            String defaultUrl = "http://localhost:19946/Default.aspx";
+
+            // Execution
+            WebRequest request = WebRequest.Create(defaultUrl);
+            WebResponse response = request.GetResponse();
+
+            // Validation
+            Assert.NotNull(response);
+        }
     }
 }
