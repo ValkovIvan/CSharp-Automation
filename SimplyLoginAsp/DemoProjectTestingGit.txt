@@ -1,4 +1,3 @@
 Hello my friend. -> First touch
 
-
-Really?
+Changed form other machine.
